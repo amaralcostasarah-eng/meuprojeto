@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Se for usar CSS -->
+</head>
+<body>
+    <header>
+        <nav>
+          <h1>Questionario</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+           
+              <h3>1 - Explique com suas palavras qual a diferença entre, aprendizagem por reforço, aprendizado supervisionada e não supervisionado. </h3>
+            <p>
+
+Aprendizagem por Reforço (Reinforcement Learning - RL):
+
+É um tipo de aprendizado em que um agente (por exemplo, um robô ou um programa de computador) aprende a tomar decisões através da interação com um ambiente. O agente recebe recompensas ou punições com base nas suas ações, com o objetivo de maximizar a recompensa acumulada ao longo do tempo. Não há um conjunto de dados rotulado, mas o agente explora o ambiente e ajusta seu comportamento conforme as recompensas que recebe.
+
+Exemplo: Um carro autônomo que aprende a dirigir e se comporta melhor ao longo do tempo com base nas recompensas ou punições que recebe (por exemplo, evitando acidentes ou cumprindo limites de velocidade).
+
+Aprendizado Supervisionado (Supervised Learning):
+
+No aprendizado supervisionado, temos um conjunto de dados rotulado, ou seja, para cada entrada, existe uma saída conhecida (rótulo). O objetivo do modelo é aprender a mapear as entradas para as saídas corretas. O modelo é treinado usando esses exemplos para prever a saída correta para dados novos.
+
+Exemplo: Classificação de emails como "spam" ou "não spam" usando um conjunto de emails rotulados.
+
+Aprendizado Não Supervisionado (Unsupervised Learning):
+
+No aprendizado não supervisionado, o modelo trabalha com dados sem rótulos. O objetivo é descobrir padrões ou estruturas subjacentes nos dados, como agrupamentos ou distribuições. O modelo não sabe de antemão quais são as saídas e tem que descobrir por conta própria.
+
+Exemplo: Agrupamento de clientes em segmentos com base em seus comportamentos de compra, onde não temos rótulos como "cliente A", "cliente B", etc.</p>
+        <h3>2 - No aprendizado supervisionado o que é um rótulo?</h3>
+            <p>No aprendizado supervisionado, rótulo é a resposta ou saída desejada associada a uma entrada. Em termos simples, é a "verdade" ou a "resposta certa" que o modelo deve prever.
+
+Exemplo: Se temos um conjunto de dados com imagens de frutas, o rótulo poderia ser "maçã", "banana" ou "laranja", dependendo da fruta na imagem.</p>
+              <h3>3 - O que é um modelo em ML?</h3>
+            <p>Um modelo em Machine Learning (ML) é uma representação matemática que descreve o relacionamento entre as entradas e as saídas dos dados, aprendida a partir dos dados de treinamento. O modelo faz previsões ou decisões com base nos dados que ele aprendeu durante o treinamento.
+
+Dependendo do tipo de aprendizado, o modelo pode ser uma rede neural, uma árvore de decisão, uma regressão linear, entre outros.</p>
+
+        <h3>4 - O que são hiperparametros?</h3>
+            <p>Hiperparâmetros são parâmetros que controlam o comportamento e o desempenho de um modelo de machine learning, mas que não são aprendidos diretamente durante o treinamento. Eles são definidos antes do treinamento e afetam como o modelo irá aprender.
+
+Exemplos de hiperparâmetros:
+
+Taxa de aprendizado (learning rate) em redes neurais.
+
+Número de árvores em uma floresta aleatória (Random Forest).
+
+Número de vizinhos em um algoritmo k-NN (K-Nearest Neighbors).
+
+A escolha adequada de hiperparâmetros pode ter um impacto significativo no desempenho do modelo.</p>
+              
+        <h3>5 - Explique a técnica de regressão linear. Onde ele pode ser aplicado?</h3>
+        <p>Regressão Linear é um modelo de aprendizado supervisionado usado para prever um valor contínuo com base em uma ou mais variáveis independentes (também chamadas de features). O modelo assume que há uma relação linear entre as variáveis de entrada e a variável de saída.
+
+A equação da regressão linear é dada por:
+
+𝑦
+=
+𝑤
+1
+⋅
+𝑥
+1
++
+𝑤
+2
+⋅
+𝑥
+2
++
+.
+.
+.
++
+𝑤
+𝑛
+⋅
+𝑥
+𝑛
++
+𝑏
+y=w
+1
+    
+
+⋅x
+1
+    
+
++w
+2
+    
+
+⋅x
+2
+    
+
++...+w
+n
+    
+
+⋅x
+n
+    
+
++b
+
+Onde:
+
+𝑦
+y é a variável dependente (o valor que estamos tentando prever).
+
+𝑥
+1
+,
+𝑥
+2
+,
+.
+.
+.
+,
+𝑥
+𝑛
+x
+1
+    
+
+,x
+2
+    
+
+,...,x
+n
+    
+
+ são as variáveis independentes (as features).
+
+𝑤
+1
+,
+𝑤
+2
+,
+.
+.
+.
+,
+𝑤
+𝑛
+w
+1
+    
+
+,w
+2
+    
+
+,...,w
+n
+    
+
+ são os coeficientes que determinam a influência de cada feature.
+
+𝑏
+b é o termo de viés (intercepto).
+
+Aplicações:
+
+Previsão de preços de casas com base em características como área, número de quartos, localização, etc.
+
+Previsão de vendas de um produto com base em variáveis como campanhas de marketing, preço, sazonalidade.</p>
+       
+<h1>Tipos de IA:</h1>
+<h3>IA Generativa:</h3>
+<p>
+
+Definição: A IA generativa é um tipo de inteligência artificial que cria novos dados a partir de um modelo treinado. Ela pode gerar imagens, textos, música ou até mesmo vídeos, imitando padrões presentes nos dados de treinamento.
+
+Exemplo: Modelos como GPT-3, DALL·E (para geração de imagens) e DeepFake (para criação de vídeos manipulados).
+
+Usos: Criação de conteúdo original, como arte, histórias, música, e até soluções para problemas como aumento de dados ou design generativo.</p>
+
+<h3>LLM (Large Language Models):</h3>
+<p>
+
+Definição: LLMs são modelos de linguagem treinados em vastas quantidades de texto para entender, gerar ou traduzir linguagem natural. Esses modelos são baseados em arquiteturas como o Transformer e podem realizar tarefas como responder perguntas, gerar texto, traduzir e mais.
+
+Exemplo: GPT-3, GPT-4, BERT, T5.
+
+Usos: Assistentes virtuais, chatbots, análise de sentimentos, geração automática de texto, sumarização de textos.</p>
+<h3>Visão Computacional:</h3>
+<p>
+
+Definição: Visão computacional é o campo da IA que se concentra em capacitar as máquinas a interpretarem e entenderem o mundo visual, processando imagens e vídeos para extrair informações significativas.
+
+Exemplo: Detecção de objetos, reconhecimento facial, segmentação de imagem.
+
+Usos: Câmeras de segurança, veículos autônomos, diagnósticos médicos a partir de imagens, realidade aumentada.</p>
+<h1>Bibliotecas em Python para IA</h1>
+<h3>Keras:</h3>
+<p>
+
+Definição: Keras é uma biblioteca de alto nível para construção e treinamento de redes neurais, que foi criada para ser simples e fácil de usar. Ela é frequentemente usada em conjunto com o TensorFlow (que é a biblioteca de backend).
+
+Usos: Keras é ideal para projetos de deep learning, como reconhecimento de imagem, processamento de linguagem natural, e análise preditiva. É uma boa escolha para iniciantes que querem trabalhar com redes neurais.
+
+Quando usar: Quando o foco está na construção rápida de protótipos de redes neurais ou quando se deseja uma API simples para experimentar com deep learning.</p>
+<h3>PyTorch:</h3>
+<p>Definição: PyTorch é uma biblioteca de aprendizado profundo de código aberto amplamente utilizada para a construção de modelos de machine learning. Ela é mais flexível do que o Keras, oferecendo maior controle sobre os modelos e operações de baixo nível.
+
+Usos: Projetos que exigem mais controle sobre a arquitetura do modelo e operações avançadas de deep learning. É popular na pesquisa acadêmica e na criação de modelos customizados.
+
+Quando usar: Quando se busca flexibilidade, velocidade e controle sobre a construção e treinamento de modelos de machine learning mais complexos.</p>
+<h3>Scikit-learn:</h3>
+<p>Definição: Scikit-learn é uma biblioteca de aprendizado de máquina que oferece ferramentas simples e eficientes para análise de dados. Ela fornece algoritmos para tarefas de classificação, regressão, clustering, redução de dimensionalidade, etc.
+
+Usos: É ideal para projetos de aprendizado supervisionado e não supervisionado, como análise preditiva, agrupamento de dados, e modelos de regressão.
+
+Quando usar: Quando o projeto envolve aprendizado de máquina tradicional (não deep learning) e busca-se simplicidade e eficiência no treinamento de modelos.</p>
+<h1>Bibliotecas para Visão Computacional</h1>
+<h3>OpenCV:</h3>
+<p>Definição: OpenCV (Open Source Computer Vision Library) é uma biblioteca de código aberto destinada à visão computacional e processamento de imagens. Ela fornece diversas ferramentas para detectar e reconhecer faces, objetos, movimento, e outras tarefas relacionadas.
+
+Objetivo: Facilitar a manipulação e análise de imagens e vídeos em tempo real.
+
+Usos: Projetos de detecção de objetos, processamento de imagens em tempo real, análise de vídeos, reconhecimento facial, e até mesmo em dispositivos móveis e drones.</p>
+<h3>YOLO (You Only Look Once)</h3>
+<p>Definição: YOLO é um modelo de detecção de objetos em tempo real que usa redes neurais convolucionais para identificar múltiplos objetos em uma única imagem ou vídeo. A principal vantagem do YOLO é sua capacidade de realizar a detecção de objetos em tempo real com alta precisão.
+
+Objetivo: Realizar detecção de objetos em imagens e vídeos de forma rápida e eficiente.
+
+Usos: Ideal para sistemas que exigem detecção de objetos em tempo real, como câmeras de segurança, veículos autônomos, sistemas de rastreamento de objetos, e mais.</p>
+<h3>MediaPipe:</h3>
+<p>Definição: MediaPipe é uma biblioteca desenvolvida pelo Google para fornecer soluções de processamento multimodal (vídeo, áudio e sensores). Ela é especializada em tarefas como detecção de rosto, rastreamento de mãos, rastreamento de corpo humano, reconhecimento de gestos, entre outras.
+
+Objetivo: Prover soluções de visão computacional de alto desempenho para processamento de vídeo em tempo real e interação multimodal.
+
+Usos: Usado em aplicativos de rastreamento de gestos, realidade aumentada, interação humano-computador (HCI), e em dispositivos móveis para aplicações de saúde, fitness, e jogos.</p>
+
+<h3>Essas bibliotecas são fundamentais para a criação de sistemas inteligentes em IA, cada uma com um papel específico dependendo do tipo de projeto e da tarefa que se deseja realizar.</h3>
+</section>
+
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Todos os direitos reservados.</p>
+    </footer>
+    <style>
+       header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a cor de fundo e a fonte padrão */
+body {
+    background-color: #a7e9a1;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: rgb(10, 40, 173);
+    text-align: center;
+    padding: 20px 0;
+}
+
+body h1 {
+    font-size: 2.5em;
+     background-color: #4CAF50;
+    color:green;
+    text-align: center;
+    padding: 20px 0;
+}
+
+body h3 {
+   
+    
+    color:green;
+    text-align: center;
+ 
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #eaeaea;
+}
+
+/* Seção principal */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ body p {
+
+    color:black;
+    text-align:center;
+ 
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+    </style>
+</body>
+</html>
